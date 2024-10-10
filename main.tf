@@ -10,7 +10,7 @@ terraform {
 
   backend "s3" {
     bucket = "joaolacerdaremotestate96"
-    key    = "aws-vm/terraform.tfstate"
+    key    = "time-sleep/terraform.tfstate"
     region = "us-east-1"
   }
 }
